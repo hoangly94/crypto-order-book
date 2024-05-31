@@ -1,0 +1,51 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ant-upload-list-item-container {
+  width: auto !important;
+  height: 100% !important;
+}
+
+/* define icon custom types */
+.anticon[type="danger"] {
+  color: red;
+}
+
+html {
+  background: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg)
+    no-repeat center / cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 !important;
+}
+
+body,
+.root {
+  height: 100vh;
+}
+body {
+  background-color: #0000003d;
+}
+
+.ant-select-open .ant-select-selection-item img {
+  opacity: 0.2;
+}
+
+.ant-form {
+  width: 100%;
+}
+
+.ant-form-item {
+  margin: 0;
+}
+
+.ant-message-notice {
+  text-align: right;
+}
